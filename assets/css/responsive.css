@@ -1,0 +1,357 @@
+@media screen and (max-height: 1199px){
+
+/*
+========================================
+	HERO SECTION START
+========================================
+*/
+.hero-section{
+	width: 95%;
+	margin-left: auto;
+	margin-top:50px;
+}
+
+.hero-content h1{
+	font-size: 35px;
+}
+
+.hero-content .hero-btns a{
+	padding: 8px 13px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+/*
+========================================
+	HERO SECTION END
+========================================
+*/
+
+
+/*
+========================================
+	TEAM SECTION START
+========================================
+*/
+
+.team-section{
+	margin: 80px 0;
+}
+.team-section .team-card .team{
+	width: 80%;
+	height: 200px;
+	margin: auto;
+}
+
+/*
+========================================
+	TEAM SECTION END
+========================================
+*/
+
+}
+
+@media screen and (max-width: 991px){
+.env-nav{
+	display: none !important;
+}
+
+.m-menu-toggler span{
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*	MOBILE MENU START */
+.mobile-menu{
+	width: 350px;
+	height: 100vh;
+	position: fixed;
+	right: -150%;
+	top: 0;
+	background: #0067F5;
+	z-index: 100;
+	padding: 20px 0px;
+	overflow-y: auto;
+}
+.mobile-menu .m-menu-close{
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	text-align: right;
+	margin-bottom: 20px;
+	padding: 0 20px;
+}
+.mobile-menu .m-menu-close span{
+	font-size: 20px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.mobile-menu ul li{
+	list-style: none;
+	border-bottom: 1px solid rgba(255,255,255,0.18);
+
+}
+.mobile-menu ul li a{
+	display: block;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.mobile-menu ul li a:hover{
+	color: #0067F5;
+	background: #fff;
+}
+.mobile-menu .sign-btn a{
+	margin-left: 15px;
+	margin-top: 10px;
+	display: inline-block;
+}
+/*	MOBILE MENU END */
+.section-title{
+	width: 90%;
+}
+/*
+========================================
+	VIDEO SECTION START
+========================================
+*/
+.video-section{
+	display: flex;
+	flex-direction: column;
+	background: #0069FE;
+	margin: 100px 0;
+}
+
+.video-section .video-img{
+	width: 100%;
+}
+
+
+.video-content{
+	width: 100%;
+	padding-left: 20px;
+
+	padding-top: 30px;
+}
+
+.video-btn{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 50%;
+	top: -35px;
+	transform: translateY(0%) translateX(-50%);
+}
+/*
+========================================
+	VIDEO SECTION END
+========================================
+*/
+
+
+/*
+========================================
+	TESTIMONIAL SECTION START
+========================================
+*/
+.testi-section{
+	margin: 50px 0;
+}
+
+.testi-section .test-img img{
+	width: 170px;
+	margin-right: 20px;
+}
+.testi-section  .test-content{
+	padding-top: 50px;
+}
+
+.test-text{
+	position: relative;
+}
+.test-text > img{
+	width: 80px !important;
+	position: absolute;
+	top: -80px;
+}
+.test-text p{
+	font-size: 13px;
+}
+
+.test-text strong{
+	font-size: 13px;
+}
+
+
+/*
+========================================
+	TESTIMONIAL SECTION END
+========================================
+*/
+
+}
+
+@media screen and (max-width: 767px){
+p{
+	font-size: 13px !important;
+}
+.section-title h2{
+	font-size: 24px;
+}
+
+
+/*
+========================================
+	SOLUTION SECTION START
+========================================
+*/
+
+.solution-section .solution-content h2{
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+/*
+========================================
+	SOLUTION SECTION END
+========================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 575px){
+.mobile-menu{
+	width: 100%;
+}
+/*
+========================================
+	HERO SECTION START
+========================================
+*/
+.hero-section{
+	width: 98%;
+	margin-left: auto;
+	margin-top:50px;
+	text-align: center;
+}
+
+.hero-content h1{
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+.hero-content p{
+	margin: 20px 0;
+}
+.hero-content .hero-btns{
+	margin-top: 10px;
+}
+.hero-content .hero-btns a{
+	font-size: 13px;
+	margin-right: 0;
+}
+/*
+========================================
+	HERO SECTION END
+========================================
+*/
+
+/*
+========================================
+	SOLUTION SECTION START
+========================================
+*/
+.solution-section{
+	text-align: center;
+}
+
+.solution-section .solution-content h2{
+	font-size: 22px;
+}
+
+.solution-section .solution-content .solution-list{
+	flex-direction: column;
+	align-items: center;
+}
+.solution-section .solution-content ul{
+	justify-content: center;
+}
+.solution-section .solution-content ul li{
+	font-size: 13px;
+	margin: 15px 0;
+}
+.solution-section .solution-content ul:last-child{
+	margin-left: 0px;
+}
+
+
+/*
+========================================
+	SOLUTION SECTION END
+========================================
+*/
+
+/*
+========================================
+	TESTIMONIAL SECTION START
+========================================
+*/
+.testi-section{
+	margin: 50px 0;
+}
+
+.testi-section .test-img img{
+	width: 150px;
+	margin-right: 40px;
+}
+.testi-section  .test-content{
+	padding-top: 20px;
+}
+.test-text{
+	padding-top: 70px;
+}
+.test-text > img{
+	width: 60px !important;
+	position: absolute;
+	top: 20px;
+}
+
+/*
+========================================
+	TESTIMONIAL SECTION END
+========================================
+*/
+
+/*
+========================================
+	EMAIL SUBSCRIBTION START 
+========================================
+*/
+
+.email-sub{
+	width: 100%;
+}
+
+
+.email-wrap input{
+	height: 40px;
+	font-size: 16px;
+}
+.email-wrap button{
+	height: 40px;
+	padding: 4px 15px;
+	font-size: 14px;
+
+
+}
+
+/*
+========================================
+	EMAIL SUBSCRIBTION END 
+========================================
+*/
+
+}
+
